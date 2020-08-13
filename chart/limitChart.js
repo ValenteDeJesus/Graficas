@@ -1,6 +1,10 @@
-div = document.getElementById('limitChart');
+var limDiv = document.getElementById('limitChart');
+
+//Define configuration for plotly layouts
+var config = {responsive: true}
 
 var dias = Array.apply(null, {length: 31}).map(Number.call, Number)
+
 
 var Gastos = {
   type: 'scatter',//Can be changed to 'bars'
@@ -98,4 +102,4 @@ var layout = {
 }
 
 //generate plot
-Plotly.newPlot(div, data, layout);
+Plotly.newPlot(limDiv, data, layout, config);
