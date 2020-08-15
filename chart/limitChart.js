@@ -93,10 +93,12 @@ var data = [Gastos,PresupTotal, TopeGasto,Centre]
 var layout = {
   title: 'Finanzas generales',
   xaxis: {
+    title: "Días",
     zeroline: false
   },
   yaxis: {
-    range: [-10000,10000],
+    title: "Pesos MXN",
+    range: [0,10000],
     zeroline: false
   }
 }

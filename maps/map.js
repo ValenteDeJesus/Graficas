@@ -11,7 +11,9 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 
-//let marker = L.marker([20.12,-98.75]).addTo(map)
+let aliado1 = L.marker([21.132512928434423,-98.41705083847047]).addTo(map)
+let aliado2 = L.marker([20.117290583460015,-98.76495480537416]).addTo(map)
+let aliado3 = L.marker([20.06034042502071, -99.22166526317598]).addTo(map)
 /*code to create custom marker
 let iconMarker = L.icon({
 	iconUrl: 'marker.png',

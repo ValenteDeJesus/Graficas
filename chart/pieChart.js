@@ -1,8 +1,7 @@
 var pieDiv = document.getElementById('pieChart');
 
 //Define configuration for plotly layouts
-var config = {responsive: true,
-              }
+var config = {responsive: true}
 
 //Defines data of both pie charts
 var data = [{
