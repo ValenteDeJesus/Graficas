@@ -1,0 +1,20 @@
+{
+
+    "Aportaciones":"Ingresos",
+    "Valor":"30", 
+    "Aportaciones":"Financiamiento Privado",
+    "Valor": "15",
+    "Aportaciones":"Aportaciones de Simpatizantes",
+    "Valor": "7", 
+    "Aportaciones":"Aportaciones del Candidato Independiente (Aspirante)",
+    "Valor": "10",
+    "Aportaciones":"Autofinanciamiento",
+    "Valor": "12", 
+    "Aportaciones":"Otros Ingresos",
+    "Valor":  "20",
+    "Aportaciones":"Rendimientos Financieros, Fondos y Fideicomisos",
+    "Valor": "17", 
+    "Aportaciones":"Rendimientos Bancarios",
+    "Valor":"5"
+
+}

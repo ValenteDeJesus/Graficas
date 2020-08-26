@@ -3,13 +3,15 @@ var promDiv = document.getElementById('promotorChart');
 //Define configuration for plotly layouts
 var config = {responsive: true}
 
+
+
 var data = [
   {
     type: "indicator",
     mode: "number+gauge+delta",
     gauge: { shape: "bullet" },
     delta: { reference: 300 },
-    value: 220,
+    value: 225,
     domain: { x: [0, 1], y: [0, 1] },
     title: {
       text:
@@ -19,5 +21,6 @@ var data = [
   }
 ];
 
-var layout = { title: "Avance electoral", width: 1500 };
+var layout = { title: "Avance electoral", height: 300 };
 Plotly.newPlot(promDiv, data, layout,config);
+
